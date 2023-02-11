@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230129234319">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230211135714">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -22,10 +22,10 @@
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#listings-page" class="menu__link">Listings</a></li>
-							<li class="menu__item"><a href="#newsroom-page" class="menu__link">Newsroom</a></li>
-							<li class="menu__item"><a href="#contact-page" class="menu__link">Contact</a></li>
-							<li class="menu__item"><a href="#team-page" class="menu__link">Our team</a></li>
+							<li class="menu__item"><a data-goto=".listings-page" href="#" class="menu__link">Listings</a></li>
+							<li class="menu__item"><a data-goto=".newsroom" href="#" class="menu__link">Newsroom</a></li>
+							<li class="menu__item"><a data-goto=".contact" href="#" class="menu__link">Contact</a></li>
+							<li class="menu__item"><a data-goto=".team" href="#" class="menu__link">Our team</a></li>
 						</ul>
 					</nav>
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
@@ -53,7 +53,7 @@
 			</section>
 
 			<section class="page__dedicated dedicated-page" id="dedicated-page">
-				<div class="dedicated-page__container">
+				<div data-watch class="dedicated-page__container">
 					<div class="dedicated-page__head">
 						<div class="dedicated-page__label label">Our goal</div>
 						<h2 class="dedicated-page__title title">We are dedicated to finding a house that you'll love.</h2>
@@ -80,8 +80,8 @@
 				</div>
 			</section>
 
-			<section class="page__listings listings-page" id="listings-page">
-				<div class="listings-page__container">
+			<section class="page__listings listings-page">
+				<div data-watch class="listings-page__container">
 					<div class="listings-page__head">
 						<div class="listings-page__label label">Our requirements</div>
 						<h3 class="listings-page__title title">How we choose our listings.</h3>
@@ -137,7 +137,7 @@
 			</section>
 
 			<section class="page__store store">
-				<div class="store__container">
+				<div data-watch class="store__container">
 
 					<div class="store__head">
 						<div class="store__label label">Current listings</div>
@@ -243,8 +243,8 @@
 				</div>
 			</section>
 
-			<section id="team-page" class="page__team team">
-				<div class="team__container">
+			<section class="page__team team">
+				<div data-watch class="team__container">
 
 					<div class="team__content">
 						<div class="team__label label">Our people</div>
@@ -314,8 +314,8 @@
 				</div>
 			</section>
 
-			<section id="newsroom-page" class="page__newsroom newsroom">
-				<div class="newsroom__container">
+			<section class="page__newsroom newsroom">
+				<div data-watch class="newsroom__container">
 					<div class="newsroom__label label">Newsroom</div>
 					<h3 id="newsroom-page" class="newsroom__title title">Writing from Estate.</h3>
 					<div class="newsroom__items">
@@ -357,7 +357,7 @@
 			</section>
 
 			<section class="page__testimonials testimonials">
-				<div class="testimonials__container">
+				<div data-watch class="testimonials__container">
 					<div class="testimonials__label label">Testimonials</div>
 					<h3 class="testimonials__title title">What our customers say.</h3>
 
@@ -468,8 +468,8 @@
 				</div>
 			</section>
 
-			<section id="contact-page" class="page__contact contact">
-				<div class="contact__container">
+			<section class="page__contact contact">
+				<div data-watch class="contact__container">
 					<div class="contact__label label">Seen enough?</div>
 					<h3 class="contact__title title">Get in touch with us today.</h3>
 					<div class="contact__text text">
@@ -485,7 +485,7 @@
 		</main>
 		<footer class="footer">
 
-			<div class="footer__container">
+			<div data-watch class="footer__container">
 
 				<div class="footer__logo">
 					<img src="img/icons/logo-white.svg" alt="">
@@ -577,7 +577,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230129234319"></script>
+	<script src="js/app.min.js?_v=20230211135714"></script>
 </body>
 
 </html>

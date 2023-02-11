@@ -446,6 +446,23 @@ html {
   max-width: 100%;
 }
 
+.footer__container {
+  -webkit-transform: translate(0px, 20%);
+      -ms-transform: translate(0px, 20%);
+          transform: translate(0px, 20%);
+  opacity: 0;
+}
+
+.footer__container._watcher-view {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 1.2s ease 0s;
+  -o-transition: all 1.2s ease 0s;
+  transition: all 1.2s ease 0s;
+}
+
 .footer__body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -725,6 +742,20 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-transform: translate(0px, 20%);
+      -ms-transform: translate(0px, 20%);
+          transform: translate(0px, 20%);
+  opacity: 0;
+}
+
+.dedicated-page__container._watcher-view {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 
 .dedicated-page__head {
@@ -759,6 +790,23 @@ html {
 
 .dedicated-page__text:not(:last-child) {
   margin-bottom: 1.25rem;
+}
+
+.listings-page__container {
+  -webkit-transform: translate(0px, 20%);
+      -ms-transform: translate(0px, 20%);
+          transform: translate(0px, 20%);
+  opacity: 0;
+}
+
+.listings-page__container._watcher-view {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 
 .listings-page__head {
@@ -911,6 +959,23 @@ html {
   background-color: #FAFAFC;
 }
 
+.store__container {
+  -webkit-transform: translate(0px, 20%);
+      -ms-transform: translate(0px, 20%);
+          transform: translate(0px, 20%);
+  opacity: 0;
+}
+
+.store__container._watcher-view {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 1.2s ease 0s;
+  -o-transition: all 1.2s ease 0s;
+  transition: all 1.2s ease 0s;
+}
+
 .store__head {
   text-align: left;
 }
@@ -1036,6 +1101,20 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transform: translate(0px, 20%);
+      -ms-transform: translate(0px, 20%);
+          transform: translate(0px, 20%);
+  opacity: 0;
+}
+
+.team__container._watcher-view {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 1.2s ease 0s;
+  -o-transition: all 1.2s ease 0s;
+  transition: all 1.2s ease 0s;
 }
 
 .team__content {
@@ -1066,6 +1145,23 @@ html {
 
 .newsroom {
   background-color: #FAFAFC;
+}
+
+.newsroom__container {
+  -webkit-transform: translate(0px, 20%);
+      -ms-transform: translate(0px, 20%);
+          transform: translate(0px, 20%);
+  opacity: 0;
+}
+
+.newsroom__container._watcher-view {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 1.2s ease 0s;
+  -o-transition: all 1.2s ease 0s;
+  transition: all 1.2s ease 0s;
 }
 
 .newsroom__label {
@@ -1167,6 +1263,20 @@ html {
 
 .contact__container {
   text-align: center;
+  -webkit-transform: translate(0px, 20%);
+      -ms-transform: translate(0px, 20%);
+          transform: translate(0px, 20%);
+  opacity: 0;
+}
+
+.contact__container._watcher-view {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 1.2s ease 0s;
+  -o-transition: all 1.2s ease 0s;
+  transition: all 1.2s ease 0s;
 }
 
 .contact__label {
@@ -1214,6 +1324,23 @@ html {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+.testimonials__container {
+  -webkit-transform: translate(0px, 20%);
+      -ms-transform: translate(0px, 20%);
+          transform: translate(0px, 20%);
+  opacity: 0;
+}
+
+.testimonials__container._watcher-view {
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+  -webkit-transition: all 1.2s ease 0s;
+  -o-transition: all 1.2s ease 0s;
+  transition: all 1.2s ease 0s;
 }
 
 .testimonials__wrapper:not(:last-child) {
